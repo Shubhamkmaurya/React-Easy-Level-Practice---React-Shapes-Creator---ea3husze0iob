@@ -4,7 +4,7 @@ import "../styles/App.css";
 
 const App = () => {
 
-  const [shape, setShape] = useState("circle");
+  const [shape, setShape] = useState("Square");
   const [count, setCount] = useState(0);
   
    //let count=0;
@@ -22,10 +22,10 @@ const App = () => {
     <div id="main">
       <div id="shape-creator">
         <select value={shape} onChange={(e) => setShape(e.target.value)}>
-          <option value="circle">
+          <option value="Square">
             Circle
           </option>
-          <option value="square">
+          <option value="Circle">
             Square
           </option>
         </select>
