@@ -29,14 +29,13 @@ const App = () => {
             Square
           </option>
         </select>
+        <button onClick={clickHandle}>Add Shape</button>
       </div>
 
       <div id="shapes-holder">
-        <button onClick={clickHandle}>Add Shape</button>
+        
       </div>
-      <div id="shape-">
-
-      </div>
+      
     </div>
   );
 };
