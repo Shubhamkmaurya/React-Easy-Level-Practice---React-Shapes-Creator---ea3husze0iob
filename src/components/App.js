@@ -9,7 +9,7 @@ const App = () => {
   
    //let count=0;
   const clickHandle = () => {
-    const body = document.getElementById("shape-")
+    const body = document.getElementById("shapes-holder")
     const div = document.createElement("div")  
 
     div.innerText = count
