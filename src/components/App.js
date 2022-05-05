@@ -25,7 +25,7 @@ const App = () => {
           <option value="Square">
             Circle
           </option>
-          <option value="Circle">
+          <option value="Square" selected>
             Square
           </option>
         </select>
